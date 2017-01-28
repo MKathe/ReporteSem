@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+                <!-- Customize your theme here. -->
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <item name="colorAccent">@color/colorAccent</item>
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:navigationBarColor">@android:color/background_dark</item>
+                <item name="android:colorForeground">@color/common_google_signin_btn_text_dark_focused</item>
+                <item name="android:textColorPrimary">@color/colorAccent</item>
+                <item name="android:textColorPrimaryInverse">
+                        @color/common_google_signin_btn_text_dark_focused
+                </item>
+        </style>
+
+        <style name="AppTheme.NoActionBar">
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+                <item name="android:statusBarColor">@android:color/transparent</item>
+        </style>
+</resources>

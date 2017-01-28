@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SemaforoReport</string>
+    <string name="registro">Registrate con:</string>
+    <string name="politicas">Políticas de privacidad</string>
+    <string name="empresa">Cápsula Digital</string>
+    <string name="btn_pantall1"></string>
+    <string name="tomar_foto">Tomar Foto</string>
+
+
+    <!--
+        Strings CardView
+    -->
+    <string name="num_denuncia">Denuncia N°1</string>
+    <string name="direccion">Av. La Marina</string>
+    <string name="fecha_reporte">30/12/2016</string>
+    <string name="btn_estado1">Atendido</string>
+
+    <!--   Navigation Drawer  -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
