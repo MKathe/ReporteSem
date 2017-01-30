@@ -11,6 +11,8 @@ public interface iCamaraPresenter {
     void permisosVerificados();
     void permisosCamaraVerificados();
     Bitmap gestionarCamara();
+    String activaLocalizacion();
+    String obtenerDireccion();
     void desactivarBotones(View view);
     void enviarReportePresenter();
 }

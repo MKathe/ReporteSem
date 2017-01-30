@@ -6,6 +6,8 @@ import android.util.Log;
 
 import com.example.desarrollo3.reportape.Datos.ReporteSemaforo;
 import com.example.desarrollo3.reportape.Datos.User;
+import com.example.desarrollo3.reportape.Modelo.RestApi.EndpointsApi;
+import com.example.desarrollo3.reportape.Modelo.RestApi.adaptador.RestApiAdapter;
 import com.example.desarrollo3.reportape.View.IRecicleViewReportesFragment;
 import com.google.gson.Gson;
 
@@ -45,7 +47,7 @@ public class RecyclerViewReportesFragmentPresenter implements IRecyclerViewRepor
 
         //Ejecuta la conexion, accede a endpoints para ejecutar la llamada conttibutors
         //
-       /* RestApiAdapter restApiAdapter = new RestApiAdapter();
+        RestApiAdapter restApiAdapter = new RestApiAdapter();
         Gson gsonReporte = restApiAdapter.construyeGsonDeserializador();
         EndpointsApi endpointsApi = restApiAdapter.establecerConexionRestApi(gsonReporte);
         Call<User> call = endpointsApi.contributors(iRecicleViewReportesFragment.obtenerEmail());
@@ -57,7 +59,7 @@ public class RecyclerViewReportesFragmentPresenter implements IRecyclerViewRepor
             System.out.println(us.getReporteusuario_fechahora());
 
         }
-        mostrarReportesRV();*/
+        mostrarReportesRV();
     }
 
     @Override

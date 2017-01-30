@@ -2,6 +2,7 @@ package com.example.desarrollo3.reportape.Modelo;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
+import android.location.Location;
 import android.view.View;
 
 import com.example.desarrollo3.reportape.Datos.Ubicacion;
@@ -13,10 +14,13 @@ import com.example.desarrollo3.reportape.Datos.Ubicacion;
 public interface iCamaraModelo {
     boolean verificarPermisosModel(Activity activity);
     boolean verificarPermisosCamaraModel();
-    void tomarFotoModel();
+    Bitmap tomarFotoModel();
+    String obtenerCadenaFoto();
+    String obtenerEmail();
     void desactivarBotonesCamara(View view);
-    Boolean AlertNoGpsModel();
-    Boolean verificarLocalizacionModel();
-    Ubicacion obtenerUbicacion();
+    void AlertNoGpsModel();
+    boolean verificarLocalizacionModel();
+    Ubicacion obtenerUbicacion(Location loc);
+    Location obtenerLocation();
     void enviarReporteModelo();
 }
